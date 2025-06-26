@@ -1,4 +1,5 @@
 
+
 function checkTemperature(temperature){
     if(temperature < 0){
         return "Freezing";
@@ -13,4 +14,5 @@ function checkTemperature(temperature){
 console.log(checkTemperature(-5));
 console.log(checkTemperature(15));
 console.log(checkTemperature(25));
+
 console.log(checkTemperature(35));
